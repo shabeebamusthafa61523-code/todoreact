@@ -43,7 +43,7 @@ const deleteTask = (index) => {
               textDecoration: t.done ? 'line-through' : 'none',
               color: t.done ? 'green' : 'black'
             }}>
-             <button className='butt' onClick={() => toggleDone(index)} style={{ marginLeft: '10px' }}>✅ correct </button>
+             <button className='butt' onClick={() => toggleDone(index)} style={{ marginLeft: '10px' }}>✅ cor </button>
 
               {t.text}
             <button className='but' onClick={() => deleteTask(index)} style={{ marginLeft: '5px' }}>❌</button>
